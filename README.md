@@ -106,13 +106,6 @@ The main interface (AppBody) provides access to library management features.
 | `App.config` | Application configuration settings |
 | `.csproj` | Visual Studio project file with build configuration |
 
-## Security Notes
-
-⚠️ **Important**: The current implementation stores credentials in the database without encryption. For production use, consider implementing:
-- Password hashing (bcrypt, PBKDF2, or similar)
-- Encryption for sensitive data
-- Parameterized queries to prevent SQL injection
-- Role-based access control
 
 ## License
 
